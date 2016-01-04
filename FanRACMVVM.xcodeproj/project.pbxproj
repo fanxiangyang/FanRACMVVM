@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66FF353C1C3A43C200D5F261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF353B1C3A43C200D5F261 /* main.m */; };
+		66FF353F1C3A43C200D5F261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF353E1C3A43C200D5F261 /* AppDelegate.m */; };
+		66FF35421C3A43C200D5F261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF35411C3A43C200D5F261 /* ViewController.m */; };
+		66FF35451C3A43C200D5F261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF35431C3A43C200D5F261 /* Main.storyboard */; };
+		66FF35471C3A43C200D5F261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FF35461C3A43C200D5F261 /* Assets.xcassets */; };
+		66FF354A1C3A43C200D5F261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF35481C3A43C200D5F261 /* LaunchScreen.storyboard */; };
+		66FF35551C3A43C200D5F261 /* FanRACMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF35541C3A43C200D5F261 /* FanRACMVVMTests.m */; };
+		66FF35601C3A43C200D5F261 /* FanRACMVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF355F1C3A43C200D5F261 /* FanRACMVVMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66FF35511C3A43C200D5F261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FF352F1C3A43C200D5F261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FF35361C3A43C200D5F261;
+			remoteInfo = FanRACMVVM;
+		};
+		66FF355C1C3A43C200D5F261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66FF352F1C3A43C200D5F261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66FF35361C3A43C200D5F261;
+			remoteInfo = FanRACMVVM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66FF35371C3A43C200D5F261 /* FanRACMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanRACMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FF353B1C3A43C200D5F261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66FF353D1C3A43C200D5F261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		66FF353E1C3A43C200D5F261 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		66FF35401C3A43C200D5F261 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		66FF35411C3A43C200D5F261 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		66FF35441C3A43C200D5F261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66FF35461C3A43C200D5F261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66FF35491C3A43C200D5F261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66FF354B1C3A43C200D5F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FF35501C3A43C200D5F261 /* FanRACMVVMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanRACMVVMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FF35541C3A43C200D5F261 /* FanRACMVVMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanRACMVVMTests.m; sourceTree = "<group>"; };
+		66FF35561C3A43C200D5F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66FF355B1C3A43C200D5F261 /* FanRACMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanRACMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		66FF355F1C3A43C200D5F261 /* FanRACMVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanRACMVVMUITests.m; sourceTree = "<group>"; };
+		66FF35611C3A43C200D5F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66FF35341C3A43C200D5F261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF354D1C3A43C200D5F261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF35581C3A43C200D5F261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66FF352E1C3A43C200D5F261 = {
+			isa = PBXGroup;
+			children = (
+				66FF35391C3A43C200D5F261 /* FanRACMVVM */,
+				66FF35531C3A43C200D5F261 /* FanRACMVVMTests */,
+				66FF355E1C3A43C200D5F261 /* FanRACMVVMUITests */,
+				66FF35381C3A43C200D5F261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66FF35381C3A43C200D5F261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66FF35371C3A43C200D5F261 /* FanRACMVVM.app */,
+				66FF35501C3A43C200D5F261 /* FanRACMVVMTests.xctest */,
+				66FF355B1C3A43C200D5F261 /* FanRACMVVMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66FF35391C3A43C200D5F261 /* FanRACMVVM */ = {
+			isa = PBXGroup;
+			children = (
+				66FF353D1C3A43C200D5F261 /* AppDelegate.h */,
+				66FF353E1C3A43C200D5F261 /* AppDelegate.m */,
+				66FF35401C3A43C200D5F261 /* ViewController.h */,
+				66FF35411C3A43C200D5F261 /* ViewController.m */,
+				66FF35431C3A43C200D5F261 /* Main.storyboard */,
+				66FF35461C3A43C200D5F261 /* Assets.xcassets */,
+				66FF35481C3A43C200D5F261 /* LaunchScreen.storyboard */,
+				66FF354B1C3A43C200D5F261 /* Info.plist */,
+				66FF353A1C3A43C200D5F261 /* Supporting Files */,
+			);
+			path = FanRACMVVM;
+			sourceTree = "<group>";
+		};
+		66FF353A1C3A43C200D5F261 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				66FF353B1C3A43C200D5F261 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		66FF35531C3A43C200D5F261 /* FanRACMVVMTests */ = {
+			isa = PBXGroup;
+			children = (
+				66FF35541C3A43C200D5F261 /* FanRACMVVMTests.m */,
+				66FF35561C3A43C200D5F261 /* Info.plist */,
+			);
+			path = FanRACMVVMTests;
+			sourceTree = "<group>";
+		};
+		66FF355E1C3A43C200D5F261 /* FanRACMVVMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66FF355F1C3A43C200D5F261 /* FanRACMVVMUITests.m */,
+				66FF35611C3A43C200D5F261 /* Info.plist */,
+			);
+			path = FanRACMVVMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66FF35361C3A43C200D5F261 /* FanRACMVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FF35641C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVM" */;
+			buildPhases = (
+				66FF35331C3A43C200D5F261 /* Sources */,
+				66FF35341C3A43C200D5F261 /* Frameworks */,
+				66FF35351C3A43C200D5F261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanRACMVVM;
+			productName = FanRACMVVM;
+			productReference = 66FF35371C3A43C200D5F261 /* FanRACMVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66FF354F1C3A43C200D5F261 /* FanRACMVVMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FF35671C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVMTests" */;
+			buildPhases = (
+				66FF354C1C3A43C200D5F261 /* Sources */,
+				66FF354D1C3A43C200D5F261 /* Frameworks */,
+				66FF354E1C3A43C200D5F261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FF35521C3A43C200D5F261 /* PBXTargetDependency */,
+			);
+			name = FanRACMVVMTests;
+			productName = FanRACMVVMTests;
+			productReference = 66FF35501C3A43C200D5F261 /* FanRACMVVMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66FF355A1C3A43C200D5F261 /* FanRACMVVMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66FF356A1C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVMUITests" */;
+			buildPhases = (
+				66FF35571C3A43C200D5F261 /* Sources */,
+				66FF35581C3A43C200D5F261 /* Frameworks */,
+				66FF35591C3A43C200D5F261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66FF355D1C3A43C200D5F261 /* PBXTargetDependency */,
+			);
+			name = FanRACMVVMUITests;
+			productName = FanRACMVVMUITests;
+			productReference = 66FF355B1C3A43C200D5F261 /* FanRACMVVMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66FF352F1C3A43C200D5F261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "凡向阳";
+				TargetAttributes = {
+					66FF35361C3A43C200D5F261 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					66FF354F1C3A43C200D5F261 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 66FF35361C3A43C200D5F261;
+					};
+					66FF355A1C3A43C200D5F261 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 66FF35361C3A43C200D5F261;
+					};
+				};
+			};
+			buildConfigurationList = 66FF35321C3A43C200D5F261 /* Build configuration list for PBXProject "FanRACMVVM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66FF352E1C3A43C200D5F261;
+			productRefGroup = 66FF35381C3A43C200D5F261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66FF35361C3A43C200D5F261 /* FanRACMVVM */,
+				66FF354F1C3A43C200D5F261 /* FanRACMVVMTests */,
+				66FF355A1C3A43C200D5F261 /* FanRACMVVMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66FF35351C3A43C200D5F261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF354A1C3A43C200D5F261 /* LaunchScreen.storyboard in Resources */,
+				66FF35471C3A43C200D5F261 /* Assets.xcassets in Resources */,
+				66FF35451C3A43C200D5F261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF354E1C3A43C200D5F261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF35591C3A43C200D5F261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66FF35331C3A43C200D5F261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF35421C3A43C200D5F261 /* ViewController.m in Sources */,
+				66FF353F1C3A43C200D5F261 /* AppDelegate.m in Sources */,
+				66FF353C1C3A43C200D5F261 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF354C1C3A43C200D5F261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF35551C3A43C200D5F261 /* FanRACMVVMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66FF35571C3A43C200D5F261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66FF35601C3A43C200D5F261 /* FanRACMVVMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66FF35521C3A43C200D5F261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FF35361C3A43C200D5F261 /* FanRACMVVM */;
+			targetProxy = 66FF35511C3A43C200D5F261 /* PBXContainerItemProxy */;
+		};
+		66FF355D1C3A43C200D5F261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66FF35361C3A43C200D5F261 /* FanRACMVVM */;
+			targetProxy = 66FF355C1C3A43C200D5F261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66FF35431C3A43C200D5F261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FF35441C3A43C200D5F261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66FF35481C3A43C200D5F261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66FF35491C3A43C200D5F261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66FF35621C3A43C200D5F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66FF35631C3A43C200D5F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66FF35651C3A43C200D5F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FanRACMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		66FF35661C3A43C200D5F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FanRACMVVM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		66FF35681C3A43C200D5F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FanRACMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanRACMVVM.app/FanRACMVVM";
+			};
+			name = Debug;
+		};
+		66FF35691C3A43C200D5F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FanRACMVVMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVMTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanRACMVVM.app/FanRACMVVM";
+			};
+			name = Release;
+		};
+		66FF356B1C3A43C200D5F261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FanRACMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FanRACMVVM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		66FF356C1C3A43C200D5F261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FanRACMVVMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVMUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FanRACMVVM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66FF35321C3A43C200D5F261 /* Build configuration list for PBXProject "FanRACMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF35621C3A43C200D5F261 /* Debug */,
+				66FF35631C3A43C200D5F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66FF35641C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF35651C3A43C200D5F261 /* Debug */,
+				66FF35661C3A43C200D5F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66FF35671C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF35681C3A43C200D5F261 /* Debug */,
+				66FF35691C3A43C200D5F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		66FF356A1C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66FF356B1C3A43C200D5F261 /* Debug */,
+				66FF356C1C3A43C200D5F261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66FF352F1C3A43C200D5F261 /* Project object */;
+}

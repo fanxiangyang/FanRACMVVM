@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6612252F1C3F51D900120B17 /* FanLoginViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6612252E1C3F51D900120B17 /* FanLoginViewModel.m */; };
+		661225321C3F6A8D00120B17 /* FanClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 661225311C3F6A8D00120B17 /* FanClass.m */; };
+		661225351C3F89DD00120B17 /* FanAPIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 661225341C3F89DD00120B17 /* FanAPIManager.m */; };
 		66FF353C1C3A43C200D5F261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF353B1C3A43C200D5F261 /* main.m */; };
 		66FF353F1C3A43C200D5F261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF353E1C3A43C200D5F261 /* AppDelegate.m */; };
 		66FF35421C3A43C200D5F261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF35411C3A43C200D5F261 /* ViewController.m */; };
@@ -15,6 +18,7 @@
 		66FF354A1C3A43C200D5F261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66FF35481C3A43C200D5F261 /* LaunchScreen.storyboard */; };
 		66FF35551C3A43C200D5F261 /* FanRACMVVMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF35541C3A43C200D5F261 /* FanRACMVVMTests.m */; };
 		66FF35601C3A43C200D5F261 /* FanRACMVVMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 66FF355F1C3A43C200D5F261 /* FanRACMVVMUITests.m */; };
+		D58F191B55C252C9C1F268B0 /* libPods-FanRACMVVM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB88926D3ED1197095A2814 /* libPods-FanRACMVVM.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EB88926D3ED1197095A2814 /* libPods-FanRACMVVM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FanRACMVVM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6612252D1C3F51D900120B17 /* FanLoginViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanLoginViewModel.h; sourceTree = "<group>"; };
+		6612252E1C3F51D900120B17 /* FanLoginViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanLoginViewModel.m; sourceTree = "<group>"; };
+		661225301C3F6A8D00120B17 /* FanClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanClass.h; sourceTree = "<group>"; };
+		661225311C3F6A8D00120B17 /* FanClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanClass.m; sourceTree = "<group>"; };
+		661225331C3F89DD00120B17 /* FanAPIManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FanAPIManager.h; sourceTree = "<group>"; };
+		661225341C3F89DD00120B17 /* FanAPIManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FanAPIManager.m; sourceTree = "<group>"; };
 		66FF35371C3A43C200D5F261 /* FanRACMVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanRACMVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FF353B1C3A43C200D5F261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		66FF353D1C3A43C200D5F261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +62,8 @@
 		66FF355B1C3A43C200D5F261 /* FanRACMVVMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanRACMVVMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		66FF355F1C3A43C200D5F261 /* FanRACMVVMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FanRACMVVMUITests.m; sourceTree = "<group>"; };
 		66FF35611C3A43C200D5F261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0E61562D3E26E3509EB2F2A /* Pods-FanRACMVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanRACMVVM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FanRACMVVM/Pods-FanRACMVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		E7384F9CD2AD9FCEE7A25EFF /* Pods-FanRACMVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanRACMVVM.release.xcconfig"; path = "Pods/Target Support Files/Pods-FanRACMVVM/Pods-FanRACMVVM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D58F191B55C252C9C1F268B0 /* libPods-FanRACMVVM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +92,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DB822A4F3FFC2A9C5897327 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0E61562D3E26E3509EB2F2A /* Pods-FanRACMVVM.debug.xcconfig */,
+				E7384F9CD2AD9FCEE7A25EFF /* Pods-FanRACMVVM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3A2AA97910964B95A897F87F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3EB88926D3ED1197095A2814 /* libPods-FanRACMVVM.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6612252C1C3F50D600120B17 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				6612252D1C3F51D900120B17 /* FanLoginViewModel.h */,
+				6612252E1C3F51D900120B17 /* FanLoginViewModel.m */,
+				661225331C3F89DD00120B17 /* FanAPIManager.h */,
+				661225341C3F89DD00120B17 /* FanAPIManager.m */,
+			);
+			name = LoginModule;
+			sourceTree = "<group>";
+		};
 		66FF352E1C3A43C200D5F261 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +127,8 @@
 				66FF35531C3A43C200D5F261 /* FanRACMVVMTests */,
 				66FF355E1C3A43C200D5F261 /* FanRACMVVMUITests */,
 				66FF35381C3A43C200D5F261 /* Products */,
+				2DB822A4F3FFC2A9C5897327 /* Pods */,
+				3A2AA97910964B95A897F87F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +145,13 @@
 		66FF35391C3A43C200D5F261 /* FanRACMVVM */ = {
 			isa = PBXGroup;
 			children = (
+				6612252C1C3F50D600120B17 /* LoginModule */,
 				66FF353D1C3A43C200D5F261 /* AppDelegate.h */,
 				66FF353E1C3A43C200D5F261 /* AppDelegate.m */,
 				66FF35401C3A43C200D5F261 /* ViewController.h */,
 				66FF35411C3A43C200D5F261 /* ViewController.m */,
+				661225301C3F6A8D00120B17 /* FanClass.h */,
+				661225311C3F6A8D00120B17 /* FanClass.m */,
 				66FF35431C3A43C200D5F261 /* Main.storyboard */,
 				66FF35461C3A43C200D5F261 /* Assets.xcassets */,
 				66FF35481C3A43C200D5F261 /* LaunchScreen.storyboard */,
@@ -147,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66FF35641C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVM" */;
 			buildPhases = (
+				6D372D9811431241003AF7B5 /* Check Pods Manifest.lock */,
 				66FF35331C3A43C200D5F261 /* Sources */,
 				66FF35341C3A43C200D5F261 /* Frameworks */,
 				66FF35351C3A43C200D5F261 /* Resources */,
+				B94AB83D2B201255970DAD76 /* Embed Pods Frameworks */,
+				BA423B5370F17988DDC73405 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,13 +315,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6D372D9811431241003AF7B5 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B94AB83D2B201255970DAD76 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanRACMVVM/Pods-FanRACMVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA423B5370F17988DDC73405 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FanRACMVVM/Pods-FanRACMVVM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66FF35331C3A43C200D5F261 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6612252F1C3F51D900120B17 /* FanLoginViewModel.m in Sources */,
+				661225321C3F6A8D00120B17 /* FanClass.m in Sources */,
 				66FF35421C3A43C200D5F261 /* ViewController.m in Sources */,
 				66FF353F1C3A43C200D5F261 /* AppDelegate.m in Sources */,
+				661225351C3F89DD00120B17 /* FanAPIManager.m in Sources */,
 				66FF353C1C3A43C200D5F261 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +512,7 @@
 		};
 		66FF35651C3A43C200D5F261 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0E61562D3E26E3509EB2F2A /* Pods-FanRACMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FanRACMVVM/Info.plist;
@@ -422,6 +524,7 @@
 		};
 		66FF35661C3A43C200D5F261 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7384F9CD2AD9FCEE7A25EFF /* Pods-FanRACMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FanRACMVVM/Info.plist;
@@ -498,6 +601,7 @@
 				66FF35661C3A43C200D5F261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66FF35671C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVMTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +610,7 @@
 				66FF35691C3A43C200D5F261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		66FF356A1C3A43C200D5F261 /* Build configuration list for PBXNativeTarget "FanRACMVVMUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +619,7 @@
 				66FF356C1C3A43C200D5F261 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

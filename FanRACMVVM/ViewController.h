@@ -8,8 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+@class FanLoginViewModel;
 @interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *userNameTextField;
+@property (weak, nonatomic) IBOutlet UITextField *passwordTextField;
+@property (weak, nonatomic) IBOutlet UIButton *regestButton;
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (strong, nonatomic) IBOutlet FanLoginViewModel *viewModel;
 
+@property (weak, nonatomic) IBOutlet UITextView *showTextView;
 
 @end
 

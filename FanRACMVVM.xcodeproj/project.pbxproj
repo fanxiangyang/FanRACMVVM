@@ -257,6 +257,7 @@
 				TargetAttributes = {
 					66FF35361C3A43C200D5F261 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NW3X9NZ9UP;
 					};
 					66FF354F1C3A43C200D5F261 = {
 						CreatedOnToolsVersion = 7.2;
@@ -515,6 +516,7 @@
 			baseConfigurationReference = D0E61562D3E26E3509EB2F2A /* Pods-FanRACMVVM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
 				INFOPLIST_FILE = FanRACMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVM;
@@ -527,6 +529,7 @@
 			baseConfigurationReference = E7384F9CD2AD9FCEE7A25EFF /* Pods-FanRACMVVM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = NW3X9NZ9UP;
 				INFOPLIST_FILE = FanRACMVVM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fan.FanRACMVVM;
